@@ -14,6 +14,7 @@
 		9F2144EF24C261A100E86E3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F2144EE24C261A100E86E3F /* Preview Assets.xcassets */; };
 		9F2144F224C261A100E86E3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F2144F024C261A100E86E3F /* LaunchScreen.storyboard */; };
 		9FC14F5C24C2693500E856FC /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC14F5B24C2693500E856FC /* Room.swift */; };
+		9FFC6E3124C2D74700D4A242 /* RoomDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFC6E3024C2D74700D4A242 /* RoomDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9F2144F124C261A100E86E3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F2144F324C261A100E86E3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FC14F5B24C2693500E856FC /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		9FFC6E3024C2D74700D4A242 /* RoomDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				9F2144E524C261A000E86E3F /* AppDelegate.swift */,
 				9F2144E724C261A000E86E3F /* SceneDelegate.swift */,
 				9F2144E924C261A000E86E3F /* ContentView.swift */,
+				9FFC6E3024C2D74700D4A242 /* RoomDetail.swift */,
 				9FC14F5B24C2693500E856FC /* Room.swift */,
 				9F2144EB24C261A100E86E3F /* Assets.xcassets */,
 				9F2144F024C261A100E86E3F /* LaunchScreen.storyboard */,
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FFC6E3124C2D74700D4A242 /* RoomDetail.swift in Sources */,
 				9F2144E624C261A000E86E3F /* AppDelegate.swift in Sources */,
 				9F2144E824C261A000E86E3F /* SceneDelegate.swift in Sources */,
 				9FC14F5C24C2693500E856FC /* Room.swift in Sources */,
