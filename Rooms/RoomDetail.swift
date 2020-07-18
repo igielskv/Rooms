@@ -16,15 +16,15 @@ struct RoomDetail: View {
         Image(room.imageName)
             .resizable()
             .aspectRatio(contentMode: zoomed ? .fill : .fit)
-            .onTapGesture { self.zoomed.toggle() }
             .navigationBarTitle(Text(room.name), displayMode: .inline)
+            .onTapGesture {
+                withAnimation { self.zoomed.toggle() }
+            }
     }
 }
 
 struct RoomDetail_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationView {
-            RoomDetail(room: testData[0])
-        }
+        NavigationView { RoomDetail(room: testData[0]) }
     }
 }
