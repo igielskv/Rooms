@@ -10,11 +10,13 @@ import SwiftUI
 
 struct RoomDetail: View {
     let room: Room
+    @State private var zoomed = false
     
     var body: some View {
         Image(room.imageName)
             .resizable()
-            .aspectRatio(contentMode: .fit)
+            .aspectRatio(contentMode: zoomed ? .fill : .fit)
+            .onTapGesture { self.zoomed.toggle() }
             .navigationBarTitle(Text(room.name), displayMode: .inline)
     }
 }
