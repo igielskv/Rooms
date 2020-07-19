@@ -1,15 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "Elephant RoomThumb.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Elephant RoomThumb.jpg",
+      "filename" : "Elephant RoomThumb@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "Elephant RoomThumb@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

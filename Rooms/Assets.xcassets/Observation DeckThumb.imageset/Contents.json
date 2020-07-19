@@ -1,15 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "Observation DeckThumb.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Observation DeckThumb.jpg",
+      "filename" : "Observation DeckThumb@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "Observation DeckThumb@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

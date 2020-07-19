@@ -1,15 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "Charter JetThumb.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Charter JetThumb.jpg",
+      "filename" : "Charter JetThumb@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "Charter JetThumb@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

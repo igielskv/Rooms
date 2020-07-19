@@ -1,15 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "PastoralThumb.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "PastoralThumb.jpg",
+      "filename" : "PastoralThumb@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "PastoralThumb@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }
