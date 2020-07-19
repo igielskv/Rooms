@@ -19,8 +19,9 @@ struct RoomDetail: View {
                 .aspectRatio(contentMode: zoomed ? .fill : .fit)
                 .navigationBarTitle(Text(room.name), displayMode: .inline)
                 .onTapGesture {
-                    withAnimation(.easeInOut(duration: 2)) { self.zoomed.toggle() }
-            }
+                    withAnimation(.easeInOut(duration: 2)) {
+                        self.zoomed.toggle() }
+                }
             .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
             
             if room.hasVideo && !zoomed {
