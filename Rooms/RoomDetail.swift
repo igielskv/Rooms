@@ -31,6 +31,7 @@ struct RoomDetail: View {
                     .transition(.move(edge: .leading))
             }
         }
+        .edgesIgnoringSafeArea(.bottom)
     }
 }
 
