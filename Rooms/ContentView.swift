@@ -49,7 +49,15 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(store: RoomStore(rooms: testData))
+        Group {
+            ContentView(store: RoomStore(rooms: testData))
+            
+            ContentView(store: RoomStore(rooms: testData))
+                .environment(\.sizeCategory, .extraLarge)
+            
+            ContentView(store: RoomStore(rooms: testData))
+                .environment(\.colorScheme, .dark)
+        }
     }
 }
 
