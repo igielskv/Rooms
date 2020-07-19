@@ -10,15 +10,9 @@ import SwiftUI
 import Combine
 
 class RoomStore: ObservableObject {
-    var rooms: [Room] {
-        didSet {
-            didChange.send()
-        }
-    }
+    @Published var rooms: [Room]
     
     init(rooms: [Room] = []) {
         self.rooms = rooms
     }
-    
-    var didChange = PassthroughSubject<Void, Never>()
 }
