@@ -14,14 +14,20 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                Button(action: addRoom) {
-                    Text("Add Room")
+                Section {
+                    Button(action: addRoom) {
+                        Text("Add Room")
+                    }
                 }
-                ForEach(store.rooms) { room in
-                    RoomCell(room: room)
+                
+                Section {
+                    ForEach(store.rooms) { room in
+                        RoomCell(room: room)
+                    }
                 }
             }
             .navigationBarTitle(Text("Rooms"))
+            .listStyle(GroupedListStyle())
         }
     }
     
